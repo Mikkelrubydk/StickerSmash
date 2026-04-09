@@ -17,7 +17,7 @@ const PlaceholderImage = require("@/assets/images/background-image.png");
 
 export default function Index() {
   const [selectedImage, setSelectedImage] = useState<string | undefined>(
-    undefined
+    undefined,
   );
   const [showAppOptions, setShowAppOptions] = useState<boolean>(false);
   const [isModalVisible, setIsModalVisible] = useState<boolean>(false);
