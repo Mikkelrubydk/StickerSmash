@@ -44,6 +44,8 @@ export default function TabLayout() {
           ),
         }}
       />
+
+      <Tabs.Screen name="employees/[employee]" options={{ href: null }} />
     </Tabs>
   );
 }
