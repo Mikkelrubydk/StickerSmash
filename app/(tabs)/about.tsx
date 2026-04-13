@@ -2,7 +2,7 @@ import { ScrollView, StyleSheet, Text, View } from "react-native";
 
 export default function AboutScreen() {
   return (
-    <ScrollView style={styles.container}>
+    <ScrollView contentContainerStyle={styles.container}>
       <View style={styles.container}>
         <Text style={styles.titleText}>Our team</Text>
         <Text style={styles.text}>Meet the people behind StickerSmash</Text>
